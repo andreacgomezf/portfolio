@@ -24,7 +24,7 @@ html{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 20px;
+ 
 }
 .contenedor-header header .logo a{
     font-family: 'Righteous';
@@ -484,6 +484,7 @@ html{
     text-align: center;
     padding: 20px 0;
 }
+
 .portfolio .galeria{
     display: flex;
     flex-wrap: wrap;
@@ -497,8 +498,9 @@ html{
     cursor: pointer;
 }
 .portfolio .galeria .proyecto img{
-    width: 100%;
-    display: block;
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
 }
 .portfolio .galeria .proyecto .overlay{
     position: absolute;
